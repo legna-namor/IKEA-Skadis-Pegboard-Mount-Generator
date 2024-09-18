@@ -5,7 +5,7 @@
 // --------------------------------------------------------------
 // Variables, width (45-231), depth (1-230)
 width = 55;
-depth = 453;
+depth = 53;
 // Function to adjust width to be between 45 and 235
 function adjust_width(w) = w < 45 ? 45 : (w > 235 ? 235 : w);
 // Function to adjust depth to be between 6 and 235
