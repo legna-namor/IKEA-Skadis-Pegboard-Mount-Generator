@@ -15,7 +15,7 @@ This OpenSCAD project creates a Skadis-compatible mount with pegs for custom att
 ### 1. Variables
 ```scad
 width = 55;   // User-defined width of the mount (45-231mm)
-depth = 453;  // User-defined depth of the mount(6-235mm)
+depth = 53;  // User-defined depth of the mount(6-235mm)
 ```
 ### 2. Width and Depth Adjustment Functions
 These functions ensure the width and depth stay within practical ranges for use with the IKEA Skadis system.
