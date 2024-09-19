@@ -7,9 +7,9 @@ This project generates a custom IKEA Skadis pegboard mount using OpenSCAD. It al
 ## Code Breakdown
 ### 1. Variables
 The system accepts three primary dimensions as input:
-- **Length** (`3-231`): The length of the mount in millimeters.
-- **Width** (`6-230`): The width of the mount in millimeters.
-- **Height** (`15-233`): The height of the mount in millimeters.
+- **Length** (`1-231`): The length of the mount in millimeters.
+- **Width** (`1-230`): The width of the mount in millimeters.
+- **Height** (`13-233`): The height of the mount in millimeters.
 > **Note**: These measurements refer to the inner space of the mount, not the overall dimensions.
 ```scad
 length = 55;
