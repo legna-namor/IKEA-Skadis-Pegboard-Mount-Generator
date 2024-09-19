@@ -1,5 +1,5 @@
 # IKEA Skadis Pegboard Mount Generator
-This project generates a custom IKEA Skadis pegboard mount using OpenSCAD. It allows users to input their desired dimensions for the mount's length, width, and height, which are then adjusted within valid ranges to fit the IKEA Skadis system. The generator produces a set of pegs and a mount backplate, providing flexibility for a variety of custom attachments.
+This project generates a custom IKEA Skadis pegboard mount using OpenSCAD. It allows users to input their desired dimensions for the mount's length, width, and height, which are then adjusted within valid ranges to fit the IKEA Skadis system.
 ### Features
 - **Adjustable Dimensions:** The system adjusts user-defined dimensions to ensure they fit within the acceptable ranges for most 3D Printers.
 - **Customizable Peg Layout:** Based on the mount's dimensions, the generator creates a pattern of pegs for attachments, both horizontally and vertically.
