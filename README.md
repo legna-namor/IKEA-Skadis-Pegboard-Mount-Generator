@@ -26,8 +26,8 @@ function adjust_height(h) = max(15, min(h, 235));
 ### 3. Half Remainder Calculation
 This function calculates half the remainder when the adjusted width is divided by 40, centering the mount if the width is one of the specified values (45, 85, 125, 165, 205).
 ```scad
-function half_remainder(w) = 
-    (w == 45 || w == 85 || w == 125 || w == 165 || w == 205) ? 0 : (w % 40) / 2;
+function half_remainder(l) = 
+    (l == 45 || l == 85 || l == 125 || l == 165 || l == 205) ? 0 : (l % 40) / 2;
 ```
 ### 4. Adjusted Variables
 These are the final variable values used throughout the design, taking user input and ensuring they fall within the allowed ranges.
