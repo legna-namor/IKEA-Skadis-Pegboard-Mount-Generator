@@ -16,7 +16,7 @@ function adjust_length(w) = max(45, min(w, 235));
 function adjust_width(d) = max(6, min(d, 235));
 function adjust_height(h) = max(15, min(h, 235));
 
-This function calculates half the remainder when the adjusted width is divided by 40, centering the mount if the width is one of the specified values (45, 85, 125, 165, 205).
+// This function calculates half the remainder when the adjusted width is divided by 40, centering the mount if the width is one of the specified values (45, 85, 125, 165, 205).
 function half_remainder(w) = 
     (w == 45 || w == 85 || w == 125 || w == 165 || w == 205) ? 0 : (w % 40) / 2;
 
