@@ -12,7 +12,7 @@ height = 33;
 
 // --------------------------------------------------------------
 // Adjusting functions to keep dimensions within their valid ranges
-function adjust_length(l) = max(45, min(l, 235));
+function adjust_length(l) = max(5, min(l, 235));
 function adjust_width(w) = max(6, min(w, 235));
 function adjust_height(h) = max(15, min(h, 235));
 
