@@ -7,7 +7,7 @@ This project generates a custom IKEA Skadis pegboard mount using OpenSCAD. It al
 ## Code Breakdown
 ### 1. Variables
 The system accepts three primary dimensions as input:
-- **Length** (`45-231`): The length of the mount in millimeters.
+- **Length** (`3-231`): The length of the mount in millimeters.
 - **Width** (`6-230`): The width of the mount in millimeters.
 - **Height** (`15-233`): The height of the mount in millimeters.
 > **Note**: These measurements refer to the inner space of the mount, not the overall dimensions.
@@ -19,8 +19,8 @@ height = 33;
 ### 2. Adjustment Functions
 These functions ensure the variables stay within practical ranges for use with the IKEA Skadis system and 3D Printers.
 ```scad
-function adjust_length(w) = max(45, min(w, 235));
-function adjust_width(d) = max(6, min(d, 235));
+function adjust_length(l) = max(5, min(l, 235));
+function adjust_width(w) = max(6, min(w, 235));
 function adjust_height(h) = max(15, min(h, 235));
 ```
 ### 3. Half Remainder Calculation
