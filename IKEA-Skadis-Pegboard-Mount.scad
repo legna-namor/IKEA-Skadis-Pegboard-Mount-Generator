@@ -4,7 +4,7 @@
 //  Purpose: This project generates a custom IKEA Skadis pegboard mount using OpenSCAD, allowing users to adjust dimensions based on their needs. 
 // --------------------------------------------------------------
 
-// Variables for dimensions: length (45-231), width (6-230), height (15-233)
+// Variables for dimensions: length (1-231), width (1-230), height (13-233)
 // Note: These measurements refer to the inner space of the mount, not the overall dimensions of the mount.
 length = 55;
 width = 20;
